@@ -4,7 +4,7 @@ var body = ''
 var datos = {};
 var datosDel=''
 function CRUD(argument, pag, idTabla) {
-    pagina = "http://localhost:80"+pag
+    pagina = "http://168.138.124.98:80"+pag
     arg = argument
     switch (arg) {
         case 'receiveData':
